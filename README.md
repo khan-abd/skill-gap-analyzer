@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Access this web-app via https://skillgap-analyzer.streamlit.app/
 =======
 # SkillBridge: AI-Powered Skill Gap Analyzer 🚀
@@ -32,32 +31,3 @@ The underlying intelligence of the app is powered by multiple Kaggle datasets pr
 1. **LinkedIn Job Postings (3.3M rows):** Used to determine what skills are actually in demand for specific roles and how heavily they should be weighted.
 2. **Coursera & Udemy Course Datasets (27,000+ rows):** Processed to match missing skills with actionable learning resources based on difficulty, duration, and ratings.
 
-## 🚀 How to Run Locally
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/khan-abd/skill-gap-analyzer.git
-cd skill-gap-analyzer
-```
-
-### 2. Install dependencies
-Make sure you have Python 3.9+ installed.
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Run the application
-```bash
-streamlit run app.py
-```
-The app will automatically open in your default web browser at `http://localhost:8501`.
-
-## ☁️ Deployment
-This application is fully optimized for deployment on **Streamlit Community Cloud**. The SQLite database is pre-built and included in the repository to ensure lightning-fast boot times without the need to process the massive CSV files during runtime.
-
-## 🤝 Contributing
-Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
-
----
-*Built with ❤️ using Python and Streamlit.*
->>>>>>> 38595b6 (Add README.md)

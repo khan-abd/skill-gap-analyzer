@@ -1,0 +1,12 @@
+# Ignore virtual environments
+venv/
+.venv/
+
+# Ignore raw Kaggle datasets (too large for GitHub)
+*.csv
+
+# Ignore MacOS system files
+.DS_Store
+
+# Do NOT ignore the database! The app needs it.
+!database/skill_gap.db

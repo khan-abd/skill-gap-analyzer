@@ -4,6 +4,9 @@ Access this web-app via https://skillgap-analyzer.streamlit.app/
 
 SkillBridge is an advanced, data-driven career readiness platform built to bridge the gap between student resumes and industry requirements. By leveraging Machine Learning, NLP, and massive real-world datasets, SkillBridge analyzes your profile, identifies missing skills, and recommends hyper-personalized courses to make you job-ready.
 
+<img width="1920" height="962" alt="Screenshot 2026-05-08 at 5 13 05 AM" src="https://github.com/user-attachments/assets/dc2cf7c7-c99f-4841-ab9a-8f8d16e4f56b" />
+
+
 ## ✨ Features
 
 * **📄 NLP Resume Parsing:** Upload your PDF resume. The system uses advanced natural language processing to extract your existing technical and soft skills.
@@ -16,6 +19,10 @@ SkillBridge is an advanced, data-driven career readiness platform built to bridg
   * **Employability Probability:** A Logistic Regression model predicts your likelihood of landing a job based on a composite score of your skill match percentage and your CGPA.
   * **Career Readiness Segmentation:** A K-Means Clustering algorithm segments your profile against peers into actionable tiers (*High Achiever*, *On Track*, *Needs Focus*).
 * **📚 TF-IDF Course Recommender:** Uses Cosine Similarity to recommend the highest-rated, most relevant courses from a massive database of 27,000+ Coursera and Udemy courses to fill your specific skill gaps.
+
+<img width="1668" height="852" alt="Screenshot 2026-05-08 at 5 17 10 AM" src="https://github.com/user-attachments/assets/fb8f9d39-7e9c-4816-ab2d-93e60f0dfde7" />
+<img width="1280" height="493" alt="Screenshot 2026-05-08 at 5 17 17 AM" src="https://github.com/user-attachments/assets/e38c6edc-15d7-44ad-bd96-19a6129427df" />
+
 
 ## 🛠️ Tech Stack
 
